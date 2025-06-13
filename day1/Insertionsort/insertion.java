@@ -25,3 +25,4 @@ public class insertion {
 
     }
 }
+// get the value and loop should shtr from 1 and then while loop condtion and the add the value of the val

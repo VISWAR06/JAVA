@@ -24,3 +24,4 @@ public class selectionsort {
         }
     }
 }
+// first find the min index and check the values comp to min and swap 

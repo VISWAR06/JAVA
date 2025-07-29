@@ -83,9 +83,8 @@ public class Main {
         q.pop();    // Removes 10
         q.pop();    // Removes 20
 
-        q.top();    // Front: 30
-        q.size();   // Size: 2
-
+        q.top();   
+        q.size();   
         q.push(60); 
         q.push(70); 
     }

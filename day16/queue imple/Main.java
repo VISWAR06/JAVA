@@ -77,8 +77,8 @@ public class Main {
         q.push(40);
         q.push(50); // Should say full
 
-        q.top();    // Front: 10
-        q.size();   // Size: 4
+        q.top();    
+        q.size();   
 
         q.pop();    
         q.pop();    

@@ -80,8 +80,8 @@ public class Main {
         q.top();    // Front: 10
         q.size();   // Size: 4
 
-        q.pop();    // Removes 10
-        q.pop();    // Removes 20
+        q.pop();    
+        q.pop();    
 
         q.top();   
         q.size();   

@@ -87,6 +87,6 @@ public class Main {
         q.size();   // Size: 2
 
         q.push(60); // Should wrap around
-        q.push(70); // Should say full
+        q.push(70); 
     }
 }

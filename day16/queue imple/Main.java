@@ -86,7 +86,7 @@ public class Main {
         q.top();    // Front: 30
         q.size();   // Size: 2
 
-        q.push(60); // Should wrap around
+        q.push(60); 
         q.push(70); 
     }
 }

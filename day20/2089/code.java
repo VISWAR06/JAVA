@@ -1,5 +1,11 @@
-package day20.2089;
-
-public class code {
-    
+class Solution {
+    public List<Integer> targetIndices(int[] nums, int target) {
+        Arrays.sort(nums);
+        ArrayList<Integer>list=new ArrayList<>();
+       for(int i=0;i<nums.length;i++){
+        if(nums[i]==target)list.add(i);
+       }
+       return list;
+        
+    }
 }

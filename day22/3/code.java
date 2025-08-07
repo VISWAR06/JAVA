@@ -1,5 +1,5 @@
 package day22.3;
 
-public class code {
+public class ce {
     
 }

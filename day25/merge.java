@@ -24,8 +24,6 @@ public static void merge(int[] arr,int l, int mid,int r){
         arr2[x]=arr[mid+1+x];
     }
     while(i<n1 && j<n2){
-        if(arr1[i]<=arr2[j]){
-            
-        }
+       
     }
 }

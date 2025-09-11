@@ -8,13 +8,13 @@ class Solution {
             if(nums[mid]==target){
                int i=mid,j=mid;
                while(i>0 && nums[i-1]==target)i--;
-               while(j<nums.length && nums[j+1]==target)j++;
+               while(j<nums.length-1 && nums[j+1]==target)j++;
                ans[0]=i;
                ans[1]=j;
                return ans;
             }
-            else if(nums[mid]<target)left=mid++;
-            else if(nums[mid]>target)right=mid--;
+            else if(nums[mid]<target)left=mid+1;
+            else right=mid-1;
         }
         return ans;
     }

@@ -15,6 +15,7 @@ public class Subsequence with sum one time {
         s-=arr[i];
        if ( ss(arr,i+1,current,s,sum)==true)return true;
        return false;
+       dfa
     }
     public static void main(String[] args) {
       int[] arr={3,1,2};
